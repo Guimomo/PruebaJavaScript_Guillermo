@@ -29,6 +29,7 @@ const ejecucion = async () => {
     const ciudad = await ciudades();
 
     const datos = await Promise.all(
+        
 
         ciudad.map(async (city) => {
             //console.log(user.id,"a");
